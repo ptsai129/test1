@@ -199,4 +199,223 @@ img {
     height: 18px;
     padding-right: 11px; } }
 
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 1.5; }
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold; }
+
+h3 {
+  font-size: 36px;
+  line-height: 1.5; }
+
+h4 {
+  font-size: 24px;
+  font-weight: bold; }
+
+.text-primary {
+  color: #650300; }
+
+.text-secondary {
+  color: #AA0601; }
+
+.text-third {
+  color: white; }
+
+.text-forth {
+  color: #707070; }
+
+.pt-60 {
+  padding-top: 60px; }
+
+.text-right {
+  text-align: right; }
+
+.mt-1 {
+  margin-top: 8px; }
+
+.mt-2 {
+  margin-top: 16px; }
+
+.mt-5 {
+  margin-top: 40px; }
+
+.banner {
+  height: 840px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.info {
+  background-color: #AA06010D; }
+  .info h2 {
+    margin-bottom: 52px; }
+
+.serviceInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; }
+  .serviceInfo li {
+    width: 25%;
+    padding-right: 30px; }
+    .serviceInfo li img {
+      height: 83px;
+      width: 83px; }
+    .serviceInfo li h4 {
+      padding: 24px 0px 8px 0px; }
+    .serviceInfo li p {
+      padding-bottom: 80px; }
+
+.size {
+  width: 635px; }
+
+.classic h2, .cobrand h2, .recommend h2, .contact h2 {
+  margin-bottom: 40px; }
+
+.classicTypes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .classicTypes h2 {
+    display: inline;
+    font-family: Roboto;
+    font-style: italic; }
+
+.optical, .sunglasses, .functional {
+  padding-bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.cobrand {
+  height: 705px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 80px; }
+
+.cobrandInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 72px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #AA0601; }
+
+.cobrandDetail {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true);
+  background-position: center;
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px; }
+  .cobrandDetail p {
+    padding: 180px 104px; }
+
+.cobrandImg {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true);
+  background-position: center;
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .cobrandImg p {
+    padding: 180px 152px; }
+
+.recommendDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px; }
+  .recommendDetail li {
+    width: 25%;
+    height: 460px;
+    margin-right: 30px;
+    border: 1px solid #DEE2E6;
+    text-align: left; }
+    .recommendDetail li p {
+      font-family: 思源黑體 TW;
+      padding: 0px 16px; }
+    .recommendDetail li img {
+      width: 100%; }
+
+.contact {
+  background-color: #AA06010D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.contactDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 190px; }
+  .contactDetails form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 80px; }
+
+.btnSize {
+  width: 350px;
+  height: 54px;
+  color: white;
+  background-color: #AA0601; }
+
 /*# sourceMappingURL=all.css.map */
