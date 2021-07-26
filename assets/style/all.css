@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -44,5 +45,158 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto; }
+
+.body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif,思源黑體 TW;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.text-third {
+  color: white; }
+
+.navbar {
+  background-color: #AA0601;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px; }
+  .navbar img {
+    padding-left: 88px; }
+
+.linksorder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .linksorder li a {
+    color: #FFFFFF;
+    font-family: 思源黑體 TW ,serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 64px; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 690px; }
+  .navbar {
+    padding: 38px 0px; }
+  .navbar img {
+    padding-left: 39px; } }
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 345px; } }
+
+.footer {
+  background-color: #AA0601; }
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 44px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .navLinks li {
+    padding-right: 48px; }
+    .navLinks li a {
+      text-decoration: none;
+      color: white;
+      font-family: 思源黑體 TW; }
+
+.iconSize {
+  width: 48px;
+  height: 48px; }
+
+.socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .socialMedia li {
+    padding-right: 32px; }
+
+.imageSize {
+  width: 36px;
+  height: 36px;
+  padding-right: 22px; }
+
+.PhoneAndMail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1px solid white; }
+  .PhoneAndMail a {
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    padding-bottom: 16px; }
+
+.moreInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 39px; }
+
+.pr-48 {
+  padding-right: 48px; }
+
+.rule a {
+  text-decoration: none;
+  font-size: 14px; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 690px; }
+  .footer .container {
+    margin-left: 48px;
+    margin-right: 40px; }
+  .navLinks li {
+    padding-right: 40px; }
+  .socialMedia li {
+    padding-right: 24px; }
+  .iconSize {
+    width: 24px;
+    height: 24px; }
+  .PhoneAndMail a {
+    font-size: 20px;
+    padding-bottom: 12px; }
+  .imageSize {
+    width: 18px;
+    height: 18px;
+    padding-right: 11px; } }
 
 /*# sourceMappingURL=all.css.map */
