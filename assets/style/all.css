@@ -525,7 +525,9 @@ img {
   font-family: 思源黑體 TW,serif;
   font-size: 48px;
   font-weight: bold;
-  border-left: 8px solid #9F1213; }
+  border-left: 8px solid #9F1213;
+  margin-top: 96px;
+  margin-bottom: 60px; }
 
 .lists {
   display: -webkit-box;
@@ -535,13 +537,25 @@ img {
       flex-wrap: wrap; }
   .lists li {
     width: 350px;
-    border: 1px solid #00000020; }
+    border: 1px solid #00000020;
+    margin-top: 32px;
+    padding-right: 30px; }
     .lists li img {
       width: 350px;
       height: 224px; }
     .lists li h3 {
       font-size: 24px;
       line-height: 1.5; }
+  .lists .storeInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .lists .storeInfo p {
+      font-size: 20px;
+      line-height: 1.5; }
+    .lists .storeInfo img {
+      width: 20px;
+      height: 20px; }
 
 .more {
   background-color: #000000; }
