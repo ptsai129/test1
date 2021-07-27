@@ -521,25 +521,22 @@ h4 {
   .container {
     max-width: 345px; } }
 
-h2 {
+.storeLists h2 {
   font-family: 思源黑體 TW,serif;
   font-size: 48px;
-  font-weight: bold; }
-
-.border-left {
+  font-weight: bold;
   border-left: 8px solid #9F1213; }
-
-img {
-  width: 350px;
-  height: 224px; }
 
 .lists {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border: 1px solid #00000020; }
+      flex-wrap: wrap; }
+  .lists li {
+    width: 350px;
+    border: 1px solid #00000020;
+    margin-right: 30px; }
 
 .more {
   background-color: #000000; }
