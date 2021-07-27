@@ -536,12 +536,12 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
   .lists li {
-    width: 33%;
+    width: 31.5%;
     border: 1px solid #00000020;
     margin-top: 32px;
-    margin-right: 29px; }
+    margin-right: 30px; }
     .lists li img {
-      width: 33%;
+      width: 350px;
       height: 224px; }
     .lists li h3 {
       font-size: 24px;
