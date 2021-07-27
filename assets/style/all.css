@@ -524,18 +524,21 @@ h4 {
 h2 {
   font-family: 思源黑體 TW,serif;
   font-size: 48px;
-  font-weight: bold;
+  font-weight: bold; }
+
+.border-left {
   border-left: 8px solid #9F1213; }
 
 .photo img {
   width: 350px;
   height: 224px; }
 
-.lists li {
+.lists {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 350px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   border: 1px solid #00000020; }
 
 .more {
