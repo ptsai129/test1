@@ -538,14 +538,14 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  margin-bottom: 160px; }
   .lists li {
     width: 31.5%;
     border: 1px solid #00000020;
     margin-top: 32px;
     margin-right: 30px; }
     .lists li img {
-      width: 350px;
       height: 224px; }
     .lists li h3 {
       font-size: 24px;
@@ -566,11 +566,9 @@ img {
   margin-top: 16px; }
   .more a {
     text-decoration: none;
-    text-align: center;
     color: white;
     font-family: 思源黑體 TW, serif;
     font-size: 19px;
-    padding-top: 20px;
-    padding-bottom: 20px; }
+    margin-top: 20px; }
 
 /*# sourceMappingURL=all.css.map */
