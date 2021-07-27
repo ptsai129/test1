@@ -1,19 +1,18 @@
-h1{
+.banner h1{
 	font-size: 64px;
 	font-weight: bold;
 	line-height: 1.5;
 }
-h2{
+.info h2, .classic h2 , .cobrand h2, .recommend h2 , .contact h2 , .classicTypes h2{
 	font-size: 48px;
 	text-align: center;
 	font-weight: bold;
-
 }
-h3{
+.banner h3{
 	font-size: 36px;
 	line-height: 1.5;
 }
-h4{
+.serviceInfo h4{
 	font-size: 24px;
 	font-weight: bold;
 }
