@@ -529,6 +529,10 @@ img {
   margin-top: 96px;
   margin-bottom: 60px; }
 
+.storeLists label {
+  font-size: 24px;
+  font-family: 思源黑體 TW,serif; }
+
 .lists {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -545,11 +549,14 @@ img {
       height: 224px; }
     .lists li h3 {
       font-size: 24px;
-      line-height: 1.5; }
+      line-height: 1.5;
+      padding-left: 24px;
+      padding-bottom: 12px;
+      padding-top: 12px; }
   .lists .StoreInfo p {
     font-size: 20px;
     line-height: 1.5;
-    padding-right: 24px; }
+    padding-left: 24px; }
     .lists .StoreInfo p img {
       width: 20px;
       height: 20px; }
@@ -559,9 +566,11 @@ img {
   margin-top: 16px; }
   .more a {
     text-decoration: none;
+    text-align: center;
     color: white;
     font-family: 思源黑體 TW, serif;
     font-size: 19px;
-    padding: 20px 137px; }
+    padding-top: 20px;
+    padding-bottom: 20px; }
 
 /*# sourceMappingURL=all.css.map */
