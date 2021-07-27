@@ -1,11 +1,13 @@
 
 .storeLists h2{
-    display: inline;
     font-family: 思源黑體 TW,serif;
     font-size: 48px;
     font-weight: bold;
     border-left: 8px solid #9F1213;
+    margin-top: 96px;
+    margin-bottom: 60px;
 }
+
 
 
 .lists{
@@ -14,10 +16,29 @@
     li{
         width:350px;
         border: 1px solid #00000020;
+        margin-top: 32px;
+        margin-right: 30px;
+        img{
+            width:350px;
+            height:224px;
+        }
         h3{
             font-size: 24px;
             line-height: 1.5;
         }
+}
+
+.storeInfo{
+    display: flex;
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+        img{
+            width:20px;
+            height:20px;
+        }
+    }
+   
 }
 
 }
