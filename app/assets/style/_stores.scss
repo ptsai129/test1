@@ -1,4 +1,6 @@
 
+
+
 .storeLists h2{
     font-family: 思源黑體 TW,serif;
     font-size: 48px;
@@ -7,17 +9,19 @@
     margin-top: 96px;
     margin-bottom: 60px;
 }
-
-
+.storeLists label{
+    font-size: 24px;
+    font-family: 思源黑體 TW,serif;
+}
 
 .lists{
     display: flex;
     flex-wrap: wrap;
     li{
-        width:350px;
+        width: 31.5%;
         border: 1px solid #00000020;
         margin-top: 32px;
-        margin-right: 30px;
+        margin-right:30px;
         img{
             width:350px;
             height:224px;
@@ -25,17 +29,22 @@
         h3{
             font-size: 24px;
             line-height: 1.5;
+            padding-left: 24px;
+            padding-bottom: 12px;
+            padding-top:12px;
         }
 }
 
-.storeInfo{
-    display: flex;
+.StoreInfo{
+    
     p{
         font-size: 20px;
         line-height: 1.5;
+        padding-left: 24px;
         img{
             width:20px;
             height:20px;
+
         }
     }
    
@@ -44,10 +53,15 @@
 }
 .more{
     background-color: #000000; 
+    margin-top: 16px;
     a{
         text-decoration: none;
+        text-align: center;
         color:white; 
         font-family: 思源黑體 TW, serif;
         font-size: 19px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
     }
 }
