@@ -544,31 +544,34 @@ img {
     width: 31.5%;
     margin-top: 32px;
     padding-right: 30px; }
-    .lists li img {
-      height: 224px;
-      border: 1px solid #00000020; }
-    .lists li h3 {
-      font-size: 24px;
-      line-height: 1.5;
-      padding-left: 24px;
-      padding-bottom: 12px;
-      padding-top: 12px;
-      border: 1px solid #00000020; }
-  .lists .StoreInfo {
-    border: 1px solid #00000020; }
-    .lists .StoreInfo p {
-      font-size: 20px;
-      line-height: 1.5;
-      padding-left: 24px; }
-      .lists .StoreInfo p img {
-        width: 20px;
-        height: 20px; }
+
+.storePhoto {
+  border: 1px solid #00000020; }
+  .storePhoto img {
+    display: block;
+    height: 224px; }
+  .storePhoto h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px; }
+
+.StoreInfo {
+  border: 1px solid #00000020; }
+  .StoreInfo p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 24px; }
+    .StoreInfo p img {
+      width: 20px;
+      height: 20px; }
 
 .more {
   background-color: #000000;
   margin-top: 16px;
   border: 1px solid #00000020;
-  padding: 20px 137px; }
+  padding: 20px 100px; }
   .more a {
     text-decoration: none;
     color: white;
