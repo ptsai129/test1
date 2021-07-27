@@ -543,8 +543,7 @@ img {
   .lists li {
     width: 31.5%;
     border: 1px solid #00000020;
-    margin-top: 32px;
-    margin-right: 30px; }
+    margin-top: 32px; }
     .lists li img {
       height: 224px; }
     .lists li h3 {
