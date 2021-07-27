@@ -542,32 +542,37 @@ img {
   margin-bottom: 160px; }
   .lists li {
     width: 31.5%;
-    border: 1px solid #00000020;
-    margin-top: 32px; }
+    margin-top: 32px;
+    padding-right: 30px; }
     .lists li img {
-      height: 224px; }
+      height: 224px;
+      border: 1px solid #00000020; }
     .lists li h3 {
       font-size: 24px;
       line-height: 1.5;
       padding-left: 24px;
       padding-bottom: 12px;
-      padding-top: 12px; }
-  .lists .StoreInfo p {
-    font-size: 20px;
-    line-height: 1.5;
-    padding-left: 24px; }
-    .lists .StoreInfo p img {
-      width: 20px;
-      height: 20px; }
+      padding-top: 12px;
+      border: 1px solid #00000020; }
+  .lists .StoreInfo {
+    border: 1px solid #00000020; }
+    .lists .StoreInfo p {
+      font-size: 20px;
+      line-height: 1.5;
+      padding-left: 24px; }
+      .lists .StoreInfo p img {
+        width: 20px;
+        height: 20px; }
 
 .more {
   background-color: #000000;
-  margin-top: 16px; }
+  margin-top: 16px;
+  border: 1px solid #00000020;
+  padding: 20px 137px; }
   .more a {
     text-decoration: none;
     color: white;
     font-family: 思源黑體 TW, serif;
-    font-size: 19px;
-    margin-top: 20px; }
+    font-size: 19px; }
 
 /*# sourceMappingURL=all.css.map */
