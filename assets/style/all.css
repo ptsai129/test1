@@ -539,7 +539,7 @@ img {
     width: 350px;
     border: 1px solid #00000020;
     margin-top: 32px;
-    padding-right: 30px; }
+    margin-right: 30px; }
     .lists li img {
       width: 350px;
       height: 224px; }
@@ -553,9 +553,9 @@ img {
     .lists .storeInfo p {
       font-size: 20px;
       line-height: 1.5; }
-    .lists .storeInfo img {
-      width: 20px;
-      height: 20px; }
+      .lists .storeInfo p img {
+        width: 20px;
+        height: 20px; }
 
 .more {
   background-color: #000000; }
