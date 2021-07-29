@@ -1,359 +1,190 @@
-.banner h1{
-	font-size: 64px;
-	font-weight: bold;
-	line-height: 1.5;
-}
-.info h2, .classic h2 , .cobrand h2, .recommend h2 , .contact h2 , .classicTypes h2{
-	font-size: 48px;
-	text-align: center;
-	font-weight: bold;
-}
-.banner h3{
-	font-size: 36px;
-	line-height: 1.5;
-}
-.serviceInfo h4{
-	font-size: 24px;
-	font-weight: bold;
-}
 
 .text-primary{
-	color:#650300;
+  color:$primary;
 }
-
-.text-secondary{
-	color:#AA0601; 
-}
-.text-third{
-	color:white;
-}
-.text-forth{
-	color:#707070;
-}
-
-.pt-60{
-	padding-top: 60px;
-}
-
-.text-right{
-	text-align: right;
-}
-
-.mt-1{
-	margin-top: 8px;
-}
-.mt-2{
-	margin-top: 16px;
-}
-
-.mt-5{
-	margin-top: 40px;
-}
-
-
-.banner{
-	height:840px;
-	background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
-	background-position: center;
+.banner {
+    height: 840px;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display:flex;
+    display: flex;
     align-items: center;
-}
-
-
-@media(max-width:768px){
-    .container{
-        max-width: 690px;
+    h3{
+      font-size: $h3-font-size;
+      color:$primary;
     }
-    .banner h3, .banner h1{
-        padding-right: 30px;
+    h1{
+      font-size: $h1-font-size;
+      color:$primary;
     }
-}
-
-@media(max-width: 375px){
-    .container{
-        max-width: 345px;
-    }
-    
-}
-    
-
-
-.info{
-	background-color:#AA06010D;
-    h2{
+  }
+  .marginpercent {
+    margin-left: 50%;
+  }
+  /*服務項目*/
+  .info {
+    background-color: $bg-color;
+    h2{ 
         margin-bottom: 52px;
     }
-}
+  }
 
-.serviceInfo{
-	display:flex;
-	justify-content: center;
-	text-align: center;
+  
+  .serviceInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
     li{
-        width:25%;
-	    padding-right: 30px;
-        img{
-            height:83px;
-            width:83px;
-        }
-        h4{
+        width: 23%;
+        img {
+            height: 83px;
+            width: 83px;
+          }
+          h4 {
             padding: 24px 0px 8px 0px;
-        }
-        p{
+          }
+          p {
             padding-bottom: 80px;
-        }
-       }
+          }
+
     }
+  }
+  
+ 
+  
 
-    
-@media(max-width:768px){
-    .container{
-        max-width: 690px;
-    }
-	.info h2{
-			font-size: 32px;
-			
-	}
-	.serviceInfo{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-            li{
-                width:50%;
-                padding: 10px 105px;
-            }
-	}
-}
-
-
-@media(max-width: 375px){
-        .container{
-            max-width: 345px;
-        }
-        
-    }
-
-.size{
-	width:635px;
-}
-.classic h2 ,.cobrand h2 , .recommend h2 , .contact h2{
-	margin-bottom: 40px;
-}
-.classicTypes{
-	display: flex;
-	flex-wrap: wrap;
-    h2{
-        display: inline;
-	    font-family: Roboto;
-	    font-style: italic;
-    }
-}
-
-.optical, .sunglasses , .functional{
-	padding-bottom: 32px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+  
+  /*經典系列鏡框*/
+  
+  .classic h2,
+  .cobrand h2,
+  .recommend h2,
+  .contact h2 {
+    margin-bottom: 40px;
+  }
+  .classicTypes {
+    display: flex;
+    flex-wrap: wrap;
+    h2 {
+        font-family: Roboto;
+        font-style: italic;
+      }
+      
+  }
+  
+  .category {
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+  }
+  .categoryDesc {
+    display: flex;
+    width: 39%;
+  }
+  .categoryIcon {
+    width: 57%;
+  }
 
 
-@media(max-width:768px){
-    .container{
-        max-width: 690px;
-    }
-    .size{
-        width:390px; 
-    }
-    .classic{
-        padding-bottom: 56px;
-    }
-    .optical, .sunglasses , .functional{
-        padding-bottom: 8px;
-    
-    }
-    .sunglasses{
-        flex-direction: row-reverse;
-        
-    }
-    .classic h2 , .cobrand h2{
-        font-size: 32px;
-    }
-    .classicTypes h2{
-        font-size: 28px;
-    }
-}
-
-
-@media(max-width: 375px){
-    .container{
-        max-width: 345px;
-    }
-    
-}
-
-
-.cobrand{
-	height:705px;
-	background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true);
-	background-position: center;
+  /*聯名設計鏡框*/
+  .cobrand {
+    height: 705px;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display:flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
-	padding-bottom: 80px;
-}
-
-.cobrandInfo{
-	display: flex;
-	font-size: 72px; 
-	font-family: roboto;
-	font-weight: bold;
-	color: #AA0601;
-}
-	
-.cobrandDetail{
-	background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true);
-	background-position: center;
-	width:50%;
+    padding-bottom: 80px;
+  }
+  
+  .cobrandInfo {
+    display: flex;
+    font-size: 72px;
+    font-family: roboto;
+    font-weight: bold;
+    color:$primary-light; 
+  }
+  
+  .cobrandDetail {
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display:flex;
     justify-content: center;
     align-items: center;
-	margin-right: 30px;
-    p{
-        padding: 180px 104px;
-
-    }
-}
-
-
-.cobrandImg{
-	background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true);
-	background-position: center;
-    width:50%;
-	background-size: cover;
+    width: 48%;
+    margin-right: 30px;
+    p {
+        padding: 179px 104px;
+      }
+  }
+  
+ 
+  .cobrandImg {
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true);
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    display:flex;
     justify-content: center;
     align-items: center;
-    p{
-        padding: 180px 152px;
-    }
-}
+    width: 48%;
+    p {
+        padding: 179px 152px;
+      }
 
-@media(max-width:768px){
-    .container{
-        max-width: 690px;
-    }
-    
-	.cobrandDetail , .cobrandImg{
-			width:50%;	
-	}
-	.cobrandImg p , .cobrandDetail p{
-			font-size: 32px;
-	}
+  }
+  
 
-	.cobrandDetail p{
-			padding: 118px 91px;
-	}
-	.cobrandImg p{
-			padding: 118px 113px;
-	}
-}
-
-@media(max-width: 375px){
-    .container{
-        max-width: 345px;
-    } 
-}
-
-
-
-.recommendDetail{
-	display: flex;
-	margin-bottom: 80px;
+  /*顧客推薦*/
+  .recommendDetail {
+    display: flex;
+    margin-bottom: 80px;
     li{
-        width:25%;
-	    height:460px;
-        margin-right:30px;
-	    border: 1px solid #DEE2E6;
-	    text-align: left;
-        p{
-            font-family: 思源黑體 TW;
-	        padding: 0px 16px;
-        }
-        img{
-            width:100%;
-        }
+        width: 23%;
+    height: 460px;
+    margin-right: 30px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+    p {
+        font-family: "Noto Sans TC";
+        padding: 0px 16px;
+      }
     }
-}
+  }
+  
+ 
 
-@media(max-width:768px){
-    .container{
-        max-width: 690px;
-    }
-	.recommend h2{
-			font-size: 32px;
-		}
-	.recommendDetail{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-            li{
-                width:50%; 
-                margin-bottom: 32px;
-
-            }
-	}
-}
-
-@media(max-width: 375px){
-    .container{
-        max-width: 345px;
-    }
-    
-}
-
-
-.contact{
-	background-color:#AA06010D;
-	display: flex;
-}
-.contactDetails{
-	display: flex;
-	flex-direction: column;
-	padding:0px 190px;
-    form{
+  
+  /*聯絡我們*/
+  .contact {
+    background-color: $bg-color; 
+    display: flex;
+  }
+  .contactDetails {
+    display: flex;
+    flex-direction: column;
+    form {
         display: flex;
-	    flex-direction: column;
-	    margin-bottom: 80px;
-    }
-}
+        flex-direction: column;
+        width: 65%;
+        margin: 0 auto;
+      }
+  }
+  
 
-.btnSize{
-	width: 350px;
-	height: 54px;
-	color:white;
-	background-color: #AA0601;
-}
-
-
-@media(max-width:768px){
-    .container{
-        max-width: 690px;
-    }
-    .contact h2{
-        font-size: 32px;
-    }
-}
-
-@media(max-width: 375px){
-    .container{
-        max-width: 345px;
-    }
-    
-}
+  
+  .btnSize {
+    width: 31%;
+    height: 54px;
+    color: $secondary;
+    background-color: #aa0601;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  
 

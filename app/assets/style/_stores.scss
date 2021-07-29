@@ -2,7 +2,7 @@
 
 
 .storeLists h2{
-    font-family: 思源黑體 TW,serif;
+    font-family: $font-noto; 
     font-size: 48px;
     font-weight: bold;
     border-left: 8px solid #9F1213;
@@ -11,7 +11,7 @@
 }
 .storeLists label{
     font-size: 24px;
-    font-family: 思源黑體 TW,serif;
+    font-family: $font-noto; 
 }
 
 .lists{
@@ -54,14 +54,14 @@
 }
 
 .more{
-    background-color: #000000; 
+    background-color: $default-color; 
     border: 1px solid #00000020;
     padding:20px 100px;
 
     a{
         text-decoration: none;
-        color:white; 
-        font-family: 思源黑體 TW, serif;
+        color:$secondary; 
+        font-family: $font-noto; 
         font-size: 19px;
     }
 }
