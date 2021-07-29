@@ -1,0 +1,487 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto; }
+
+.body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial,'Noto Sans TC', sans-serif;
+  line-height: 1.5; }
+
+.navbar {
+  background-color: #AA0601;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px; }
+  .navbar img {
+    padding-left: 88px; }
+
+.linksorder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .linksorder li a {
+    color: #FFFFFF;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 64px; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 690px; }
+  .navbar {
+    padding: 38px 0px; }
+  .navbar img {
+    padding-left: 39px; } }
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 345px; } }
+
+.footer {
+  background-color: #AA0601; }
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 44px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .navLinks li {
+    padding-right: 48px; }
+    .navLinks li a {
+      text-decoration: none;
+      color: #FFFFFF;
+      font-family: "Noto Sans TC", sans-serif; }
+
+.iconSize {
+  width: 48px;
+  height: 48px; }
+
+.socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .socialMedia li {
+    padding-right: 32px; }
+
+.imageSize {
+  width: 36px;
+  height: 36px;
+  padding-right: 22px; }
+
+.PhoneAndMail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1px solid #FFFFFF; }
+  .PhoneAndMail a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-bottom: 16px; }
+
+.moreInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 39px; }
+
+.pr-48 {
+  padding-right: 48px; }
+
+.rule a {
+  text-decoration: none;
+  font-size: 14px; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 690px; }
+  .footer .container {
+    margin-left: 48px;
+    margin-right: 40px; }
+  .navLinks li {
+    padding-right: 40px; }
+  .socialMedia li {
+    padding-right: 24px; }
+  .iconSize {
+    width: 24px;
+    height: 24px; }
+  .PhoneAndMail a {
+    font-size: 20px;
+    padding-bottom: 12px; }
+  .imageSize {
+    width: 18px;
+    height: 18px;
+    padding-right: 11px; } }
+
+.text-primary {
+  color: #650300; }
+
+.banner {
+  height: 840px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .banner h3 {
+    font-size: 36px;
+    color: #650300; }
+  .banner h1 {
+    font-size: 64px;
+    color: #650300; }
+
+.marginpercent {
+  margin-left: 50%; }
+
+/*服務項目*/
+.info {
+  background-color: #AA06010D; }
+  .info h2 {
+    margin-bottom: 52px; }
+
+.serviceInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center; }
+  .serviceInfo li {
+    width: 23%; }
+    .serviceInfo li img {
+      height: 83px;
+      width: 83px; }
+    .serviceInfo li h4 {
+      padding: 24px 0px 8px 0px; }
+    .serviceInfo li p {
+      padding-bottom: 80px; }
+
+/*經典系列鏡框*/
+.classic h2,
+.cobrand h2,
+.recommend h2,
+.contact h2 {
+  margin-bottom: 40px; }
+
+.classicTypes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .classicTypes h2 {
+    font-family: Roboto;
+    font-style: italic; }
+
+.category {
+  padding-bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.categoryDesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 39%; }
+
+.categoryIcon {
+  width: 57%; }
+
+/*聯名設計鏡框*/
+.cobrand {
+  height: 705px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 80px; }
+
+.cobrandInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 72px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #AA0601; }
+
+.cobrandDetail {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 48%;
+  margin-right: 30px; }
+  .cobrandDetail p {
+    padding: 179px 104px; }
+
+.cobrandImg {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 48%; }
+  .cobrandImg p {
+    padding: 179px 152px; }
+
+/*顧客推薦*/
+.recommendDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px; }
+  .recommendDetail li {
+    width: 23%;
+    height: 460px;
+    margin-right: 30px;
+    border: 1px solid #dee2e6;
+    text-align: left; }
+    .recommendDetail li p {
+      font-family: "Noto Sans TC";
+      padding: 0px 16px; }
+
+/*聯絡我們*/
+.contact {
+  background-color: #AA06010D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.contactDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .contactDetails form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 65%;
+    margin: 0 auto; }
+
+.btnSize {
+  width: 31%;
+  height: 54px;
+  color: #FFFFFF;
+  background-color: #aa0601;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 80px; }
+
+.storeLists h2 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  border-left: 8px solid #9F1213;
+  margin-top: 96px;
+  margin-bottom: 60px; }
+
+.storeLists label {
+  font-size: 24px;
+  font-family: "Noto Sans TC", sans-serif; }
+
+.lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 160px; }
+  .lists li {
+    width: 31.5%;
+    margin-top: 32px;
+    padding-right: 30px; }
+
+.storePhoto {
+  border: 1px solid #00000020; }
+  .storePhoto img {
+    display: block;
+    height: 224px; }
+  .storePhoto h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px; }
+
+.StoreInfo {
+  border: 1px solid #00000020; }
+  .StoreInfo p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 24px; }
+    .StoreInfo p img {
+      width: 20px;
+      height: 20px; }
+
+.more {
+  background-color: #000000;
+  border: 1px solid #00000020;
+  padding: 20px 100px; }
+  .more a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 19px; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 690px; }
+  .storeLists label {
+    font-size: 16px; }
+  .lists li {
+    width: 50%; }
+  .storePhoto img {
+    height: 164px; } }
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 345px; }
+  .storeLists h2 {
+    font-size: 28px;
+    border-left: 4px solid #9F1213;
+    margin-top: 28px;
+    margin-bottom: 56px; }
+  .storeLists label {
+    font-size: 14px; }
+  .storePhoto h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 8px;
+    padding-top: 8px; }
+  .lists li {
+    width: 100%;
+    margin-top: 16px;
+    padding-right: 15px; }
+  .StoreInfo p {
+    font-size: 14px;
+    line-height: 1.5; }
+  .StoreInfo img {
+    width: 15px;
+    height: 15px; }
+  .more a {
+    font-size: 14px; } }
+
+/*# sourceMappingURL=all.css.map */
