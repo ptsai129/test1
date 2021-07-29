@@ -199,51 +199,6 @@ img {
     height: 18px;
     padding-right: 11px; } }
 
-.banner h1 {
-  font-size: 64px;
-  font-weight: bold;
-  line-height: 1.5; }
-
-.info h2, .classic h2, .cobrand h2, .recommend h2, .contact h2, .classicTypes h2 {
-  font-size: 48px;
-  text-align: center;
-  font-weight: bold; }
-
-.banner h3 {
-  font-size: 36px;
-  line-height: 1.5; }
-
-.serviceInfo h4 {
-  font-size: 24px;
-  font-weight: bold; }
-
-.text-primary {
-  color: #650300; }
-
-.text-secondary {
-  color: #AA0601; }
-
-.text-third {
-  color: white; }
-
-.text-forth {
-  color: #707070; }
-
-.pt-60 {
-  padding-top: 60px; }
-
-.text-right {
-  text-align: right; }
-
-.mt-1 {
-  margin-top: 8px; }
-
-.mt-2 {
-  margin-top: 16px; }
-
-.mt-5 {
-  margin-top: 40px; }
-
 .banner {
   height: 840px;
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
@@ -257,18 +212,12 @@ img {
       -ms-flex-align: center;
           align-items: center; }
 
-@media (max-width: 768px) {
-  .container {
-    max-width: 690px; }
-  .banner h3, .banner h1 {
-    padding-right: 30px; } }
+.marginpercent {
+  margin-left: 50%; }
 
-@media (max-width: 375px) {
-  .container {
-    max-width: 345px; } }
-
+/*服務項目*/
 .info {
-  background-color: #AA06010D; }
+  background-color: #aa06010d; }
   .info h2 {
     margin-bottom: 52px; }
 
@@ -276,13 +225,13 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   text-align: center; }
   .serviceInfo li {
-    width: 25%;
-    padding-right: 30px; }
+    width: 23%; }
     .serviceInfo li img {
       height: 83px;
       width: 83px; }
@@ -291,32 +240,11 @@ img {
     .serviceInfo li p {
       padding-bottom: 80px; }
 
-@media (max-width: 768px) {
-  .container {
-    max-width: 690px; }
-  .info h2 {
-    font-size: 32px; }
-  .serviceInfo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .serviceInfo li {
-      width: 50%;
-      padding: 10px 105px; } }
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 345px; } }
-
-.size {
-  width: 635px; }
-
-.classic h2, .cobrand h2, .recommend h2, .contact h2 {
+/*經典系列鏡框*/
+.classic h2,
+.cobrand h2,
+.recommend h2,
+.contact h2 {
   margin-bottom: 40px; }
 
 .classicTypes {
@@ -326,45 +254,28 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
   .classicTypes h2 {
-    display: inline;
     font-family: Roboto;
     font-style: italic; }
 
-.optical, .sunglasses, .functional {
+.category {
   padding-bottom: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
 
-@media (max-width: 768px) {
-  .container {
-    max-width: 690px; }
-  .size {
-    width: 390px; }
-  .classic {
-    padding-bottom: 56px; }
-  .optical, .sunglasses, .functional {
-    padding-bottom: 8px; }
-  .sunglasses {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse; }
-  .classic h2, .cobrand h2 {
-    font-size: 32px; }
-  .classicTypes h2 {
-    font-size: 28px; } }
+.categoryDesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 39%; }
 
-@media (max-width: 375px) {
-  .container {
-    max-width: 345px; } }
+.categoryIcon {
+  width: 57%; }
 
+/*聯名設計鏡框*/
 .cobrand {
   height: 705px;
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true);
@@ -374,6 +285,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -386,102 +300,58 @@ img {
   font-size: 72px;
   font-family: roboto;
   font-weight: bold;
-  color: #AA0601; }
+  color: #aa0601; }
 
 .cobrandDetail {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true);
   background-position: center;
-  width: 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 48%;
   margin-right: 30px; }
   .cobrandDetail p {
-    padding: 180px 104px; }
+    padding: 179px 104px; }
 
 .cobrandImg {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true);
   background-position: center;
-  width: 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  width: 48%; }
   .cobrandImg p {
-    padding: 180px 152px; }
+    padding: 179px 152px; }
 
-@media (max-width: 768px) {
-  .container {
-    max-width: 690px; }
-  .cobrandDetail, .cobrandImg {
-    width: 50%; }
-  .cobrandImg p, .cobrandDetail p {
-    font-size: 32px; }
-  .cobrandDetail p {
-    padding: 118px 91px; }
-  .cobrandImg p {
-    padding: 118px 113px; } }
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 345px; } }
-
+/*顧客推薦*/
 .recommendDetail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 80px; }
   .recommendDetail li {
-    width: 25%;
+    width: 23%;
     height: 460px;
     margin-right: 30px;
-    border: 1px solid #DEE2E6;
+    border: 1px solid #dee2e6;
     text-align: left; }
     .recommendDetail li p {
-      font-family: 思源黑體 TW;
+      font-family: "Noto Sans TC";
       padding: 0px 16px; }
-    .recommendDetail li img {
-      width: 100%; }
 
-@media (max-width: 768px) {
-  .container {
-    max-width: 690px; }
-  .recommend h2 {
-    font-size: 32px; }
-  .recommendDetail {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .recommendDetail li {
-      width: 50%;
-      margin-bottom: 32px; } }
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 345px; } }
-
+/*聯絡我們*/
 .contact {
-  background-color: #AA06010D;
+  background-color: #aa06010d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -493,8 +363,7 @@ img {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 0px 190px; }
+          flex-direction: column; }
   .contactDetails form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -503,23 +372,17 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 80px; }
+    width: 65%;
+    margin: 0 auto; }
 
 .btnSize {
-  width: 350px;
+  width: 31%;
   height: 54px;
   color: white;
-  background-color: #AA0601; }
-
-@media (max-width: 768px) {
-  .container {
-    max-width: 690px; }
-  .contact h2 {
-    font-size: 32px; } }
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 345px; } }
+  background-color: #aa0601;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 80px; }
 
 .storeLists h2 {
   font-family: 思源黑體 TW,serif;
