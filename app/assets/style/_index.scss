@@ -92,9 +92,12 @@
       }
     }  
   
-  
+  .categoryIcon{
+    width:57%;
+  }
   .categoryDesc{
     display: flex;
+    width:37%;
     p{
       font-size: $h2-font-size;
       font-family: $font-roboto;
@@ -278,15 +281,14 @@
     .category {
       padding-bottom: 8px;
     }
-    .cobrandImg p, .cobrandDetail p {
-      font-size: $font-size-base-ml;
-    }
   
     .cobrandDetail p {
+      font-size: $font-size-base-ml;
       padding: 118px 91px;
     }
-  
+
     .cobrandImg p {
+      font-size:  $font-size-base-ml;
       padding: 118px 113px;
     }
   
