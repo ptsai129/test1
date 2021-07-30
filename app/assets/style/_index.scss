@@ -89,25 +89,22 @@
       padding-bottom: 32px;
       display: flex;
       align-items: center;
-      .categoryDesc{
-        display: flex;
-        width: 39%;
-        h2 {
-          font-size: $h2-font-size;
-          font-family: $font-roboto;
-          font-style: italic;
-          color:$primary-light; 
-        }
-        .categoryIcon {
-          width: 57%;
-        }
-
-       }
-    }
-    
-      
-  }
+      }
+    }  
   
+  
+  .categoryDesc{
+    display: flex;
+    width: 39%;
+    h2 {
+      font-size: $h2-font-size;
+      font-family: $font-roboto;
+      font-style: italic;
+      color:$primary-light; 
+    }
+    .categoryIcon {
+      width: 57%;
+    }
  
   
 
@@ -264,11 +261,12 @@
     .serviceInfo li {
       width: 39%;
     }
-  
+    .classic h2 ,.cobrand h2 {
+      font-size: $font-size-base-ml;
+    }
     .categoryDesc {
-      width: 37%;
       h2{
-        font-size: 28px;
+        font-size: $font-size-base-m;
       }
     }
     .categoryIcon {
@@ -288,12 +286,10 @@
       flex-direction: row-reverse;
     }
   
-    .classic h2 ,.cobrand h2 {
-      font-size: 32px;
-    }
+ 
     
     .cobrandImg p, .cobrandDetail p {
-      font-size: 32px;
+      font-size: $font-size-base-ml;
     }
   
     .cobrandDetail p {
@@ -371,4 +367,4 @@
     }
   
   }
-  
+}
