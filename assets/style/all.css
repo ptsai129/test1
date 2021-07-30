@@ -84,7 +84,7 @@ img {
   .linksorder li a {
     color: #FFFFFF;
     font-family: "Noto Sans TC", sans-serif;
-    font-size: 20px;
+    font-size: 28px;
     text-decoration: none;
     padding-right: 64px; }
 
@@ -280,18 +280,16 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .classicTypes .category .categoryDesc {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      width: 39%; }
-      .classicTypes .category .categoryDesc h2 {
-        font-size: 48px;
-        font-family: "Roboto", sans-serif;
-        font-style: italic;
-        color: #AA0601; }
-      .classicTypes .category .categoryDesc .categoryIcon {
-        width: 57%; }
+
+.categoryDesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .categoryDesc p {
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: #AA0601; }
 
 /*聯名設計鏡框*/
 .cobrand h2 {
@@ -443,37 +441,28 @@ img {
         justify-content: space-around; }
   .serviceInfo li {
     width: 39%; }
-  .categoryDesc {
-    width: 37%; }
-    .categoryDesc h2 {
-      font-size: 28px; }
-  .categoryIcon {
-    width: 57%; }
-  .sunglasses {
+  .classic h2 {
+    font-size: 32px; }
+  .categoryDesc p {
+    font-size: 28px; }
+  .categoryDesc .sunglasses {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
-  .classic {
+  .categoryDesc .classic {
     padding-bottom: 56px; }
-  .category {
+  .categoryDesc .category {
     padding-bottom: 8px; }
-  .sunglasses {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse; }
-  .classic h2, .cobrand h2 {
+  .categoryDesc .cobrandImg p, .categoryDesc .cobrandDetail p {
     font-size: 32px; }
-  .cobrandImg p, .cobrandDetail p {
-    font-size: 32px; }
-  .cobrandDetail p {
+  .categoryDesc .cobrandDetail p {
     padding: 118px 91px; }
-  .cobrandImg p {
+  .categoryDesc .cobrandImg p {
     padding: 118px 113px; }
-  .recommend h2 {
+  .categoryDesc .recommend h2 {
     font-size: 32px; }
-  .recommendDetail {
+  .categoryDesc .recommendDetail {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -482,45 +471,12 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  .recommendDetail li {
-    width: 47%;
-    margin-right: 20px;
-    margin-bottom: 32px; }
-  .contact h2 {
+    .categoryDesc .recommendDetail li {
+      width: 47%;
+      margin-right: 20px;
+      margin-bottom: 32px; }
+  .categoryDesc .contact h2 {
     font-size: 32px; } }
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 345px; }
-  .serviceInfo li {
-    width: 74%; }
-  .cobrandInfo {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-  .cobrandDetail p {
-    padding: 124px 98px; }
-  .cobrandImg p {
-    padding: 118px 113px; }
-  .cobrandImg,
-  .cobrandDetail {
-    width: 100%; }
-  .recommendDetail {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-bottom: 40px; }
-  .recommendDetail li {
-    width: 100%;
-    margin: 0 auto; }
-  .categoryIcon {
-    width: 100%;
-    position: relative;
-    z-index: 1; }
-  .categoryDesc {
-    width: 100px;
-    position: absolute;
-    z-index: 2;
-    top: 0px;
-    left: 0px; } }
 
 .storeLists h2 {
   font-family: "Noto Sans TC", sans-serif;
