@@ -172,7 +172,8 @@ img {
 
 .rule a {
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 14px;
+  color: #FFFFFF; }
 
 @media (max-width: 768px) {
   .container {
