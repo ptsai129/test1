@@ -79,7 +79,7 @@
     color:$primary;
     font-weight: bold;
     text-align: center;
-   }
+   }   
  }
   
   .classicTypes {
@@ -95,17 +95,14 @@
   
   .categoryDesc{
     display: flex;
-    width: 39%;
-    h2 {
+    p{
       font-size: $h2-font-size;
       font-family: $font-roboto;
       font-style: italic;
       color:$primary-light; 
-    }
-    .categoryIcon {
-      width: 57%;
-    }
- 
+     }
+  }
+
   
 
 
@@ -232,13 +229,14 @@
     margin-bottom: 80px;
   }
   
+    
+    
 
-
-  @media (max-width: 768px) {
+ 
+@media (max-width: 768px) {
     .container {
       max-width: 690px;
     }
-  
     .banner h3 {
       font-size: 20px;
     }
@@ -251,7 +249,7 @@
     }
   
     .info h2 {
-      font-size: 32px;
+      font-size: $font-size-base-ml;
     }
     .serviceInfo {
       display: flex;
@@ -261,33 +259,25 @@
     .serviceInfo li {
       width: 39%;
     }
-    .classic h2 ,.cobrand h2 {
-      font-size: $font-size-base-ml;
-    }
-    .categoryDesc {
+    .classic{
       h2{
-        font-size: $font-size-base-m;
+        font-size: $font-size-base-ml;
       }
     }
-    .categoryIcon {
-      width: 57%;
+    .categoryDesc{
+      p{
+      font-size: $font-size-base-m;
     }
+    
     .sunglasses {
       flex-direction: row-reverse;
     }
-  
     .classic {
       padding-bottom: 56px;
     }
     .category {
       padding-bottom: 8px;
     }
-    .sunglasses {
-      flex-direction: row-reverse;
-    }
-  
- 
-    
     .cobrandImg p, .cobrandDetail p {
       font-size: $font-size-base-ml;
     }
@@ -301,70 +291,23 @@
     }
   
     .recommend h2 {
-      font-size: 32px;
+      font-size:$font-size-base-ml;
     }
     .recommendDetail {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-    }
-  
-    .recommendDetail li {
-      width: 47%;
-      margin-right: 20px;
-      margin-bottom: 32px;
+      li{
+        width: 47%;
+        margin-right: 20px;
+        margin-bottom: 32px;
+      }
     }
   
     .contact h2 {
-      font-size: 32px;
+      font-size: $font-size-base-ml;
     }
-  
-  }
-  
-  @media (max-width: 375px) {
-    .container {
-      max-width: 345px;
-    }
-    
-    .serviceInfo li {
-      width: 74%;
-    }
-    .cobrandInfo {
-      flex-wrap: wrap;
-    }
-  
-    .cobrandDetail p {
-      padding: 124px 98px;
-    }
-  
-    .cobrandImg p {
-      padding: 118px 113px;
-    }
-    .cobrandImg,
-    .cobrandDetail {
-      width: 100%;
-    }
-  
-    .recommendDetail {
-      flex-wrap: wrap;
-      margin-bottom: 40px;
-    }
-    .recommendDetail li {
-      width: 100%;
-      margin: 0 auto;
-    }
-    .categoryIcon {
-      width: 100%;
-      position: relative;
-      z-index: 1;
-    }
-    .categoryDesc {
-      width: 100px;
-      position: absolute;
-      z-index: 2;
-      top: 0px;
-      left: 0px;
-    }
-  
-  }
+
+}  
+
 }
