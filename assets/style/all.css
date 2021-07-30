@@ -48,8 +48,7 @@ table {
 
 img {
   max-width: 100%;
-  height: auto;
-  display: block; }
+  height: auto; }
 
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -199,6 +198,9 @@ img {
 .text-primary {
   color: #650300; }
 
+.pt-60 {
+  padding-top: 60px; }
+
 .banner {
   height: 840px;
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
@@ -216,6 +218,7 @@ img {
     color: #650300; }
   .banner h1 {
     font-size: 64px;
+    font-weight: bold;
     color: #650300; }
 
 .marginpercent {
@@ -225,7 +228,10 @@ img {
 .info {
   background-color: #AA06010D; }
   .info h2 {
-    margin-bottom: 52px; }
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 52px;
+    font-weight: bold; }
 
 .serviceInfo {
   display: -webkit-box;
@@ -242,6 +248,7 @@ img {
       height: 83px;
       width: 83px; }
     .serviceInfo li h4 {
+      font-size: 24px;
       padding: 24px 0px 8px 0px; }
     .serviceInfo li p {
       padding-bottom: 80px; }
@@ -260,7 +267,8 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
   .classicTypes h2 {
-    font-family: Roboto;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
     font-style: italic; }
 
 .category {
@@ -304,7 +312,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   font-size: 72px;
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #AA0601; }
 
