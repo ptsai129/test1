@@ -169,3 +169,24 @@ img{ max-width: 100%;
      }
     
 }
+
+@media(max-width:375px){
+    .container{
+        max-width: 345px;
+    }
+
+    .navbar img{
+        width:100%
+    }
+    .linksorder{
+        flex-wrap: wrap;
+    }
+    .linksorder li{
+        width: 50%;
+        text-align: center;
+        border: 1px solid #fff;
+    }
+
+}
+
+

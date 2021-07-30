@@ -98,7 +98,8 @@
   .categoryDesc{
     display: flex;
     width:37%;
-    p{
+    a{
+      text-decoration: none;
       font-size: $h2-font-size;
       font-family: $font-roboto;
       font-style: italic;
@@ -132,10 +133,8 @@
   
   .cobrandInfo {
     display: flex;
-    font-size: 72px;
     font-family:$font-roboto;
     font-weight: bold;
-    color:$primary-light; 
   }
   
   .cobrandDetail {
@@ -145,12 +144,18 @@
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    width: 48%;
+    width:540px;
+    height:455px;
     margin-right: 30px;
-    p {
-        padding: 179px 104px;
-      }
-  }
+      a {
+        display: block;
+         font-size: 72px;
+         text-decoration: none;
+         color:$primary-light;
+       }
+
+    }
+    
   
  
   .cobrandImg {
@@ -160,12 +165,24 @@
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    width: 48%;
-    p {
-        padding: 179px 152px;
+    width:540px;
+    height:455px;
+ 
+      a {   
+        display: block;
+        font-size: 72px;
+        text-decoration: none;
+        color:$primary-light; 
       }
 
-  }
+    }
+
+    
+   
+
+  
+ 
+
   
 
   /*顧客推薦*/
@@ -268,7 +285,7 @@
       }
     }
     .categoryDesc{
-      p{
+      a{
       font-size: $font-size-base-m;
     }
     
@@ -280,6 +297,9 @@
     }
     .category {
       padding-bottom: 8px;
+    }
+    .cobrandDetail ,.cobrandImg{
+      height:278px;
     }
   
     .cobrandDetail p {

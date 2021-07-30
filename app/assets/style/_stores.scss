@@ -3,14 +3,14 @@
 
 .storeLists h2{
     font-family: $font-noto; 
-    font-size: 48px;
+    font-size: $h2-font-size;
     font-weight: bold;
     border-left: 8px solid #9F1213;
     margin-top: 96px;
     margin-bottom: 60px;
 }
 .storeLists label{
-    font-size: 24px;
+    font-size: $h4-font-size;
     font-family: $font-noto; 
 }
 
@@ -31,7 +31,7 @@
         height:224px;   
     }
     h3{
-        font-size: 24px;
+        font-size: $h4-font-size;
         line-height: 1.5;
         padding-left: 24px;
         padding-bottom: 12px;
@@ -42,7 +42,7 @@
 .StoreInfo{
     border: 1px solid #00000020;
     p{
-        font-size: 20px;
+        font-size: $font-size-base-sm;
         line-height: 1.5;
         padding-left: 24px;
         img{
@@ -72,7 +72,7 @@
         max-width: 690px;
     }
     .storeLists label{
-        font-size: 16px;
+        font-size: $font-size-base;
     }
     .lists li{
         width: 50%;
