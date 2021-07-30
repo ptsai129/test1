@@ -195,11 +195,11 @@ img {
     height: 18px;
     padding-right: 11px; } }
 
-.text-primary {
-  color: #650300; }
-
 .pt-60 {
   padding-top: 60px; }
+
+.mb-40 {
+  margin-bottom: 40px; }
 
 .banner {
   height: 840px;
@@ -215,7 +215,8 @@ img {
           align-items: center; }
   .banner h3 {
     font-size: 36px;
-    color: #650300; }
+    color: #650300;
+    text-align: right; }
   .banner h1 {
     font-size: 64px;
     font-weight: bold;
@@ -231,7 +232,8 @@ img {
     font-size: 48px;
     text-align: center;
     margin-bottom: 52px;
-    font-weight: bold; }
+    font-weight: bold;
+    color: #650300; }
 
 .serviceInfo {
   display: -webkit-box;
@@ -249,16 +251,17 @@ img {
       width: 83px; }
     .serviceInfo li h4 {
       font-size: 24px;
-      padding: 24px 0px 8px 0px; }
+      padding: 24px 0px 8px 0px;
+      color: #650300; }
     .serviceInfo li p {
       padding-bottom: 80px; }
 
 /*經典系列鏡框*/
-.classic h2,
-.cobrand h2,
-.recommend h2,
-.contact h2 {
-  margin-bottom: 40px; }
+.classic h2 {
+  font-size: 48px;
+  color: #650300;
+  font-weight: bold;
+  text-align: center; }
 
 .classicTypes {
   display: -webkit-box;
@@ -266,10 +269,11 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
-  .classicTypes h2 {
+  .classicTypes .category .categoryDesc h2 {
     font-size: 48px;
     font-family: "Roboto", sans-serif;
-    font-style: italic; }
+    font-style: italic;
+    color: #AA0601; }
 
 .category {
   padding-bottom: 32px;
@@ -290,6 +294,12 @@ img {
   width: 57%; }
 
 /*聯名設計鏡框*/
+.cobrand h2 {
+  color: #AA0601;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center; }
+
 .cobrand {
   height: 705px;
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true);
@@ -348,6 +358,15 @@ img {
     padding: 179px 152px; }
 
 /*顧客推薦*/
+.datecolor {
+  color: #707070; }
+
+.recommend h2 {
+  color: #650300;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center; }
+
 .recommendDetail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -378,6 +397,11 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+  .contactDetails h2 {
+    color: #650300;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center; }
   .contactDetails form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -397,6 +421,103 @@ img {
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 80px; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 690px; }
+  .banner h3 {
+    font-size: 20px; }
+  .banner h1 {
+    font-size: 48px; }
+  .marginpercent {
+    margin-left: 37%; }
+  .info h2 {
+    font-size: 32px; }
+  .serviceInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .serviceInfo li {
+    width: 39%; }
+  .categoryDesc {
+    width: 39%; }
+  .categoryIcon {
+    width: 57%; }
+  .classic {
+    padding-bottom: 56px; }
+  .category {
+    padding-bottom: 8px; }
+  .sunglasses {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
+  .classic h2,
+  .cobrand h2 {
+    font-size: 32px; }
+  .categoryDesc h2 {
+    font-size: 28px; }
+  .cobrandImg p,
+  .cobrandDetail p {
+    font-size: 32px; }
+  .cobrandDetail p {
+    padding: 118px 91px; }
+  .cobrandImg p {
+    padding: 118px 113px; }
+  .recommend h2 {
+    font-size: 32px; }
+  .recommendDetail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .recommendDetail li {
+    width: 47%;
+    margin-right: 20px;
+    margin-bottom: 32px; }
+  .contact h2 {
+    font-size: 32px; } }
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 345px; }
+  .serviceInfo li {
+    width: 74%; }
+  .cobrandInfo {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .cobrandDetail p {
+    padding: 124px 98px; }
+  .cobrandImg p {
+    padding: 118px 113px; }
+  .cobrandImg,
+  .cobrandDetail {
+    width: 100%; }
+  .recommendDetail {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 40px; }
+  .recommendDetail li {
+    width: 100%;
+    margin: 0 auto; }
+  .categoryIcon {
+    width: 100%;
+    position: relative;
+    z-index: 1; }
+  .categoryDesc {
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px; } }
 
 .storeLists h2 {
   font-family: "Noto Sans TC", sans-serif;
