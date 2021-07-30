@@ -282,10 +282,14 @@ img {
         -ms-flex-align: center;
             align-items: center; }
 
+.categoryIcon {
+  width: 57%; }
+
 .categoryDesc {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  width: 37%; }
   .categoryDesc p {
     font-size: 48px;
     font-family: "Roboto", sans-serif;
@@ -455,11 +459,11 @@ img {
     padding-bottom: 56px; }
   .categoryDesc .category {
     padding-bottom: 8px; }
-  .categoryDesc .cobrandImg p, .categoryDesc .cobrandDetail p {
-    font-size: 32px; }
   .categoryDesc .cobrandDetail p {
+    font-size: 32px;
     padding: 118px 91px; }
   .categoryDesc .cobrandImg p {
+    font-size: 32px;
     padding: 118px 113px; }
   .categoryDesc .recommend h2 {
     font-size: 32px; }
